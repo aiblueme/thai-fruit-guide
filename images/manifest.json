@@ -1,1 +1,377 @@
-{}
+{
+  "mango": {
+    "slug": "mango",
+    "processed": [
+      "images/processed/mango/mango_01.webp",
+      "images/processed/mango/mango_02.webp",
+      "images/processed/mango/mango_03.webp",
+      "images/processed/mango/mango_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/mango/mango_01_thumb.webp",
+      "images/thumbs/mango/mango_02_thumb.webp",
+      "images/thumbs/mango/mango_03_thumb.webp",
+      "images/thumbs/mango/mango_04_thumb.webp"
+    ]
+  },
+  "mangosteen": {
+    "slug": "mangosteen",
+    "processed": [
+      "images/processed/mangosteen/mangosteen_01.webp",
+      "images/processed/mangosteen/mangosteen_02.webp",
+      "images/processed/mangosteen/mangosteen_03.webp",
+      "images/processed/mangosteen/mangosteen_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/mangosteen/mangosteen_01_thumb.webp",
+      "images/thumbs/mangosteen/mangosteen_02_thumb.webp",
+      "images/thumbs/mangosteen/mangosteen_03_thumb.webp",
+      "images/thumbs/mangosteen/mangosteen_04_thumb.webp"
+    ]
+  },
+  "rambutan": {
+    "slug": "rambutan",
+    "processed": [
+      "images/processed/rambutan/rambutan_01.webp",
+      "images/processed/rambutan/rambutan_02.webp",
+      "images/processed/rambutan/rambutan_03.webp",
+      "images/processed/rambutan/rambutan_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/rambutan/rambutan_01_thumb.webp",
+      "images/thumbs/rambutan/rambutan_02_thumb.webp",
+      "images/thumbs/rambutan/rambutan_03_thumb.webp",
+      "images/thumbs/rambutan/rambutan_04_thumb.webp"
+    ]
+  },
+  "durian": {
+    "slug": "durian",
+    "processed": [
+      "images/processed/durian/durian_01.webp",
+      "images/processed/durian/durian_02.webp",
+      "images/processed/durian/durian_03.webp",
+      "images/processed/durian/durian_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/durian/durian_01_thumb.webp",
+      "images/thumbs/durian/durian_02_thumb.webp",
+      "images/thumbs/durian/durian_03_thumb.webp",
+      "images/thumbs/durian/durian_04_thumb.webp"
+    ]
+  },
+  "longan": {
+    "slug": "longan",
+    "processed": [
+      "images/processed/longan/longan_01.webp",
+      "images/processed/longan/longan_02.webp",
+      "images/processed/longan/longan_03.webp",
+      "images/processed/longan/longan_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/longan/longan_01_thumb.webp",
+      "images/thumbs/longan/longan_02_thumb.webp",
+      "images/thumbs/longan/longan_03_thumb.webp",
+      "images/thumbs/longan/longan_04_thumb.webp"
+    ]
+  },
+  "lychee": {
+    "slug": "lychee",
+    "processed": [
+      "images/processed/lychee/lychee_01.webp",
+      "images/processed/lychee/lychee_02.webp",
+      "images/processed/lychee/lychee_03.webp",
+      "images/processed/lychee/lychee_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/lychee/lychee_01_thumb.webp",
+      "images/thumbs/lychee/lychee_02_thumb.webp",
+      "images/thumbs/lychee/lychee_03_thumb.webp",
+      "images/thumbs/lychee/lychee_04_thumb.webp"
+    ]
+  },
+  "papaya": {
+    "slug": "papaya",
+    "processed": [
+      "images/processed/papaya/papaya_01.webp",
+      "images/processed/papaya/papaya_02.webp",
+      "images/processed/papaya/papaya_03.webp",
+      "images/processed/papaya/papaya_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/papaya/papaya_01_thumb.webp",
+      "images/thumbs/papaya/papaya_02_thumb.webp",
+      "images/thumbs/papaya/papaya_03_thumb.webp",
+      "images/thumbs/papaya/papaya_04_thumb.webp"
+    ]
+  },
+  "pineapple": {
+    "slug": "pineapple",
+    "processed": [
+      "images/processed/pineapple/pineapple_01.webp",
+      "images/processed/pineapple/pineapple_02.webp",
+      "images/processed/pineapple/pineapple_03.webp",
+      "images/processed/pineapple/pineapple_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/pineapple/pineapple_01_thumb.webp",
+      "images/thumbs/pineapple/pineapple_02_thumb.webp",
+      "images/thumbs/pineapple/pineapple_03_thumb.webp",
+      "images/thumbs/pineapple/pineapple_04_thumb.webp"
+    ]
+  },
+  "dragon-fruit": {
+    "slug": "dragon-fruit",
+    "processed": [
+      "images/processed/dragon-fruit/dragon-fruit_01.webp",
+      "images/processed/dragon-fruit/dragon-fruit_02.webp",
+      "images/processed/dragon-fruit/dragon-fruit_03.webp",
+      "images/processed/dragon-fruit/dragon-fruit_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/dragon-fruit/dragon-fruit_01_thumb.webp",
+      "images/thumbs/dragon-fruit/dragon-fruit_02_thumb.webp",
+      "images/thumbs/dragon-fruit/dragon-fruit_03_thumb.webp",
+      "images/thumbs/dragon-fruit/dragon-fruit_04_thumb.webp"
+    ]
+  },
+  "jackfruit": {
+    "slug": "jackfruit",
+    "processed": [
+      "images/processed/jackfruit/jackfruit_01.webp",
+      "images/processed/jackfruit/jackfruit_02.webp",
+      "images/processed/jackfruit/jackfruit_03.webp",
+      "images/processed/jackfruit/jackfruit_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/jackfruit/jackfruit_01_thumb.webp",
+      "images/thumbs/jackfruit/jackfruit_02_thumb.webp",
+      "images/thumbs/jackfruit/jackfruit_03_thumb.webp",
+      "images/thumbs/jackfruit/jackfruit_04_thumb.webp"
+    ]
+  },
+  "pomelo": {
+    "slug": "pomelo",
+    "processed": [
+      "images/processed/pomelo/pomelo_01.webp",
+      "images/processed/pomelo/pomelo_02.webp",
+      "images/processed/pomelo/pomelo_03.webp",
+      "images/processed/pomelo/pomelo_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/pomelo/pomelo_01_thumb.webp",
+      "images/thumbs/pomelo/pomelo_02_thumb.webp",
+      "images/thumbs/pomelo/pomelo_03_thumb.webp",
+      "images/thumbs/pomelo/pomelo_04_thumb.webp"
+    ]
+  },
+  "rose-apple": {
+    "slug": "rose-apple",
+    "processed": [
+      "images/processed/rose-apple/rose-apple_01.webp",
+      "images/processed/rose-apple/rose-apple_02.webp",
+      "images/processed/rose-apple/rose-apple_03.webp",
+      "images/processed/rose-apple/rose-apple_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/rose-apple/rose-apple_01_thumb.webp",
+      "images/thumbs/rose-apple/rose-apple_02_thumb.webp",
+      "images/thumbs/rose-apple/rose-apple_03_thumb.webp",
+      "images/thumbs/rose-apple/rose-apple_04_thumb.webp"
+    ]
+  },
+  "tamarind": {
+    "slug": "tamarind",
+    "processed": [
+      "images/processed/tamarind/tamarind_01.webp",
+      "images/processed/tamarind/tamarind_02.webp",
+      "images/processed/tamarind/tamarind_03.webp",
+      "images/processed/tamarind/tamarind_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/tamarind/tamarind_01_thumb.webp",
+      "images/thumbs/tamarind/tamarind_02_thumb.webp",
+      "images/thumbs/tamarind/tamarind_03_thumb.webp",
+      "images/thumbs/tamarind/tamarind_04_thumb.webp"
+    ]
+  },
+  "starfruit": {
+    "slug": "starfruit",
+    "processed": [
+      "images/processed/starfruit/starfruit_01.webp",
+      "images/processed/starfruit/starfruit_02.webp",
+      "images/processed/starfruit/starfruit_03.webp",
+      "images/processed/starfruit/starfruit_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/starfruit/starfruit_01_thumb.webp",
+      "images/thumbs/starfruit/starfruit_02_thumb.webp",
+      "images/thumbs/starfruit/starfruit_03_thumb.webp",
+      "images/thumbs/starfruit/starfruit_04_thumb.webp"
+    ]
+  },
+  "santol": {
+    "slug": "santol",
+    "processed": [
+      "images/processed/santol/santol_01.webp",
+      "images/processed/santol/santol_02.webp",
+      "images/processed/santol/santol_03.webp",
+      "images/processed/santol/santol_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/santol/santol_01_thumb.webp",
+      "images/thumbs/santol/santol_02_thumb.webp",
+      "images/thumbs/santol/santol_03_thumb.webp",
+      "images/thumbs/santol/santol_04_thumb.webp"
+    ]
+  },
+  "guava": {
+    "slug": "guava",
+    "processed": [
+      "images/processed/guava/guava_01.webp",
+      "images/processed/guava/guava_02.webp",
+      "images/processed/guava/guava_03.webp",
+      "images/processed/guava/guava_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/guava/guava_01_thumb.webp",
+      "images/thumbs/guava/guava_02_thumb.webp",
+      "images/thumbs/guava/guava_03_thumb.webp",
+      "images/thumbs/guava/guava_04_thumb.webp"
+    ]
+  },
+  "salak": {
+    "slug": "salak",
+    "processed": [
+      "images/processed/salak/salak_01.webp",
+      "images/processed/salak/salak_02.webp",
+      "images/processed/salak/salak_03.webp",
+      "images/processed/salak/salak_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/salak/salak_01_thumb.webp",
+      "images/thumbs/salak/salak_02_thumb.webp",
+      "images/thumbs/salak/salak_03_thumb.webp",
+      "images/thumbs/salak/salak_04_thumb.webp"
+    ]
+  },
+  "langsat": {
+    "slug": "langsat",
+    "processed": [
+      "images/processed/langsat/langsat_01.webp",
+      "images/processed/langsat/langsat_02.webp",
+      "images/processed/langsat/langsat_03.webp",
+      "images/processed/langsat/langsat_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/langsat/langsat_01_thumb.webp",
+      "images/thumbs/langsat/langsat_02_thumb.webp",
+      "images/thumbs/langsat/langsat_03_thumb.webp",
+      "images/thumbs/langsat/langsat_04_thumb.webp"
+    ]
+  },
+  "banana": {
+    "slug": "banana",
+    "processed": [
+      "images/processed/banana/banana_01.webp",
+      "images/processed/banana/banana_02.webp",
+      "images/processed/banana/banana_03.webp",
+      "images/processed/banana/banana_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/banana/banana_01_thumb.webp",
+      "images/thumbs/banana/banana_02_thumb.webp",
+      "images/thumbs/banana/banana_03_thumb.webp",
+      "images/thumbs/banana/banana_04_thumb.webp"
+    ]
+  },
+  "coconut": {
+    "slug": "coconut",
+    "processed": [
+      "images/processed/coconut/coconut_01.webp",
+      "images/processed/coconut/coconut_02.webp",
+      "images/processed/coconut/coconut_03.webp",
+      "images/processed/coconut/coconut_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/coconut/coconut_01_thumb.webp",
+      "images/thumbs/coconut/coconut_02_thumb.webp",
+      "images/thumbs/coconut/coconut_03_thumb.webp",
+      "images/thumbs/coconut/coconut_04_thumb.webp"
+    ]
+  },
+  "sapodilla": {
+    "slug": "sapodilla",
+    "processed": [
+      "images/processed/sapodilla/sapodilla_01.webp",
+      "images/processed/sapodilla/sapodilla_02.webp",
+      "images/processed/sapodilla/sapodilla_03.webp",
+      "images/processed/sapodilla/sapodilla_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/sapodilla/sapodilla_01_thumb.webp",
+      "images/thumbs/sapodilla/sapodilla_02_thumb.webp",
+      "images/thumbs/sapodilla/sapodilla_03_thumb.webp",
+      "images/thumbs/sapodilla/sapodilla_04_thumb.webp"
+    ]
+  },
+  "custard-apple": {
+    "slug": "custard-apple",
+    "processed": [
+      "images/processed/custard-apple/custard-apple_01.webp",
+      "images/processed/custard-apple/custard-apple_02.webp",
+      "images/processed/custard-apple/custard-apple_03.webp",
+      "images/processed/custard-apple/custard-apple_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/custard-apple/custard-apple_01_thumb.webp",
+      "images/thumbs/custard-apple/custard-apple_02_thumb.webp",
+      "images/thumbs/custard-apple/custard-apple_03_thumb.webp",
+      "images/thumbs/custard-apple/custard-apple_04_thumb.webp"
+    ]
+  },
+  "pomegranate": {
+    "slug": "pomegranate",
+    "processed": [
+      "images/processed/pomegranate/pomegranate_01.webp",
+      "images/processed/pomegranate/pomegranate_02.webp",
+      "images/processed/pomegranate/pomegranate_03.webp",
+      "images/processed/pomegranate/pomegranate_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/pomegranate/pomegranate_01_thumb.webp",
+      "images/thumbs/pomegranate/pomegranate_02_thumb.webp",
+      "images/thumbs/pomegranate/pomegranate_03_thumb.webp",
+      "images/thumbs/pomegranate/pomegranate_04_thumb.webp"
+    ]
+  },
+  "watermelon": {
+    "slug": "watermelon",
+    "processed": [
+      "images/processed/watermelon/watermelon_01.webp",
+      "images/processed/watermelon/watermelon_02.webp",
+      "images/processed/watermelon/watermelon_03.webp",
+      "images/processed/watermelon/watermelon_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/watermelon/watermelon_01_thumb.webp",
+      "images/thumbs/watermelon/watermelon_02_thumb.webp",
+      "images/thumbs/watermelon/watermelon_03_thumb.webp",
+      "images/thumbs/watermelon/watermelon_04_thumb.webp"
+    ]
+  },
+  "green-mango": {
+    "slug": "green-mango",
+    "processed": [
+      "images/processed/green-mango/green-mango_01.webp",
+      "images/processed/green-mango/green-mango_02.webp",
+      "images/processed/green-mango/green-mango_03.webp",
+      "images/processed/green-mango/green-mango_04.webp"
+    ],
+    "thumbs": [
+      "images/thumbs/green-mango/green-mango_01_thumb.webp",
+      "images/thumbs/green-mango/green-mango_02_thumb.webp",
+      "images/thumbs/green-mango/green-mango_03_thumb.webp",
+      "images/thumbs/green-mango/green-mango_04_thumb.webp"
+    ]
+  }
+}
