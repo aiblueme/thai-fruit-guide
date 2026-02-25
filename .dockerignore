@@ -1,0 +1,17 @@
+# Python scripts and cache — not needed in container
+fetch_images.py
+process_images.py
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw unprocessed images — potentially large, not served
+images/raw/
+
+# Git
+.git/
+.gitignore
+
+# Docs
+README.md
+*.md

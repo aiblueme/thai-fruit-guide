@@ -1,0 +1,11 @@
+# Raw downloaded images (large, not committed)
+images/raw/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db

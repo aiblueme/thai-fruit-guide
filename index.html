@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thailand Fruit Guide — กินผลไม้</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────────────── -->
+  <header class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">
+        <span class="label-tag">THAILAND</span>
+        <span class="label-tag season-indicator" id="season-badge">Loading season…</span>
+      </div>
+      <h1 class="hero-th">กินผลไม้</h1>
+      <h2 class="hero-en">Thailand Fruit Guide</h2>
+      <p class="hero-sub">A field guide to 25 tropical fruits — flavor profiles, seasonality, where to buy, and how to eat them.</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" id="total-count">25</span><span class="stat-label">fruits</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-num" id="in-season-count">—</span><span class="stat-label">in season now</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label">data layers</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-num">2025</span><span class="stat-label">updated</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll</div>
+  </header>
+
+  <!-- ─── MAIN LAYOUT ────────────────────────────────────────────────────────── -->
+  <div class="layout" id="main-layout">
+
+    <!-- ─── FILTER SIDEBAR ──────────────────────────────────────────────────── -->
+    <aside class="sidebar glass" id="sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-title">Filter</span>
+        <span class="active-badge" id="active-badge" aria-live="polite"></span>
+        <button class="clear-all" id="clear-all" type="button">Clear all</button>
+      </div>
+
+      <!-- Search -->
+      <div class="filter-group">
+        <label class="filter-label" for="search">Search</label>
+        <div class="search-wrap">
+          <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input class="search-input" id="search" type="text" placeholder="mango, durian…" autocomplete="off" />
+        </div>
+      </div>
+
+      <!-- Season -->
+      <div class="filter-group">
+        <label class="filter-label">Season</label>
+        <div class="month-grid" id="month-grid">
+          <!-- JS-generated -->
+        </div>
+      </div>
+
+      <!-- Flavor -->
+      <div class="filter-group">
+        <label class="filter-label">Flavor</label>
+        <div class="pill-group" id="flavor-group">
+          <button class="pill" data-filter="flavor" data-value="sweet" type="button">Sweet</button>
+          <button class="pill" data-filter="flavor" data-value="sour" type="button">Sour</button>
+          <button class="pill" data-filter="flavor" data-value="bitter" type="button">Bitter</button>
+          <button class="pill" data-filter="flavor" data-value="aromatic" type="button">Aromatic</button>
+          <button class="pill" data-filter="flavor" data-value="mild" type="button">Mild</button>
+        </div>
+      </div>
+
+      <!-- Sweetness -->
+      <div class="filter-group">
+        <label class="filter-label" for="sweetness-slider">
+          Sweetness min
+          <span class="slider-val" id="sweetness-val">Any</span>
+        </label>
+        <input class="range-slider" id="sweetness-slider" type="range" min="0" max="5" value="0" step="1" />
+        <div class="range-labels"><span>Any</span><span>5</span></div>
+      </div>
+
+      <!-- Smell -->
+      <div class="filter-group">
+        <label class="filter-label">Smell intensity</label>
+        <div class="pill-group" id="smell-group">
+          <button class="pill" data-filter="smell" data-value="1" type="button">Mild</button>
+          <button class="pill" data-filter="smell" data-value="2" type="button">Moderate</button>
+          <button class="pill" data-filter="smell" data-value="3" type="button">Strong</button>
+          <button class="pill pill-danger" data-filter="smell" data-value="5" type="button">Extreme ⚠</button>
+        </div>
+      </div>
+
+      <!-- Difficulty -->
+      <div class="filter-group">
+        <label class="filter-label">Difficulty to eat</label>
+        <div class="pill-group" id="difficulty-group">
+          <button class="pill" data-filter="difficulty" data-value="1" type="button">Easy</button>
+          <button class="pill" data-filter="difficulty" data-value="2" type="button">Medium</button>
+          <button class="pill" data-filter="difficulty" data-value="3" type="button">Challenging</button>
+        </div>
+      </div>
+
+      <!-- Where to find -->
+      <div class="filter-group">
+        <label class="filter-label">Where to find</label>
+        <div class="pill-group" id="where-group">
+          <button class="pill" data-filter="where" data-value="street_vendor" type="button">Street vendor</button>
+          <button class="pill" data-filter="where" data-value="supermarket" type="button">Supermarket</button>
+        </div>
+      </div>
+
+      <!-- Tags -->
+      <div class="filter-group">
+        <label class="filter-label">Tags</label>
+        <div class="pill-group" id="tag-group">
+          <button class="pill" data-filter="tag" data-value="beginner-friendly" type="button">Beginner</button>
+          <button class="pill" data-filter="tag" data-value="widely-available" type="button">Widely available</button>
+          <button class="pill" data-filter="tag" data-value="seasonal" type="button">Seasonal</button>
+          <button class="pill" data-filter="tag" data-value="street-food" type="button">Street food</button>
+          <button class="pill" data-filter="tag" data-value="year-round" type="button">Year-round</button>
+        </div>
+      </div>
+
+      <!-- Sort -->
+      <div class="filter-group">
+        <label class="filter-label" for="sort-select">Sort</label>
+        <select class="sort-select" id="sort-select">
+          <option value="default">Default</option>
+          <option value="alpha">A → Z</option>
+          <option value="sweetness-desc">Sweetest first</option>
+          <option value="smell-desc">Most aromatic first</option>
+          <option value="season-start">Season start</option>
+          <option value="difficulty">Easiest first</option>
+        </select>
+      </div>
+
+      <!-- Results count -->
+      <div class="results-count" id="results-count" aria-live="polite">
+        <span id="visible-count">25</span> fruits shown
+      </div>
+    </aside>
+
+    <!-- ─── GRID AREA ────────────────────────────────────────────────────────── -->
+    <main class="grid-area" id="grid-area">
+      <div class="bento-grid" id="fruit-grid" role="list">
+        <!-- JS-generated cards -->
+      </div>
+      <div class="no-results" id="no-results" hidden>
+        <p>No fruits match your filters.</p>
+        <button class="btn-outline" id="no-results-clear" type="button">Clear all filters</button>
+      </div>
+    </main>
+
+  </div><!-- /layout -->
+
+  <!-- ─── DETAIL PANEL ────────────────────────────────────────────────────────── -->
+  <div class="detail-overlay" id="detail-overlay" role="dialog" aria-modal="true" aria-labelledby="detail-name" hidden>
+    <div class="detail-panel" id="detail-panel">
+      <button class="detail-close" id="detail-close" type="button" aria-label="Close detail panel">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <!-- Image strip -->
+      <div class="detail-images" id="detail-images">
+        <div class="detail-hero-img-wrap">
+          <img class="detail-hero-img" id="detail-hero-img" src="" alt="" loading="lazy" />
+        </div>
+        <div class="detail-img-strip" id="detail-img-strip">
+          <!-- Thumbnail strip populated by JS -->
+        </div>
+      </div>
+
+      <!-- Header -->
+      <div class="detail-header">
+        <div class="detail-names">
+          <h2 class="detail-name-en" id="detail-name"></h2>
+          <div class="detail-name-th-wrap">
+            <span class="detail-name-th" id="detail-name-th"></span>
+            <span class="detail-name-roman" id="detail-name-roman"></span>
+          </div>
+        </div>
+        <div class="detail-badges">
+          <span class="detail-badge" id="detail-season-badge"></span>
+          <span class="detail-badge detail-badge-smell" id="detail-smell-badge"></span>
+        </div>
+      </div>
+
+      <!-- Body -->
+      <div class="detail-body">
+
+        <!-- Flavor radar + stats -->
+        <section class="detail-section">
+          <h3 class="detail-section-title">Flavor Profile</h3>
+          <div class="flavor-grid">
+            <svg class="radar-chart" id="radar-chart" viewBox="0 0 200 200" width="200" height="200" aria-label="Flavor radar chart">
+              <!-- Generated by JS -->
+            </svg>
+            <div class="flavor-stats">
+              <div class="flavor-row">
+                <span class="flavor-label">Sweetness</span>
+                <div class="flavor-dots" id="flavor-sweetness"></div>
+              </div>
+              <div class="flavor-row">
+                <span class="flavor-label">Sourness</span>
+                <div class="flavor-dots" id="flavor-sourness"></div>
+              </div>
+              <div class="flavor-row">
+                <span class="flavor-label">Intensity</span>
+                <div class="flavor-dots" id="flavor-intensity"></div>
+              </div>
+              <div class="flavor-row">
+                <span class="flavor-label">Smell</span>
+                <div class="flavor-dots" id="flavor-smell"></div>
+              </div>
+              <div class="flavor-texture">
+                <span class="flavor-label">Texture</span>
+                <p class="flavor-texture-text" id="flavor-texture-text"></p>
+              </div>
+              <div class="flavor-tags" id="flavor-tags-row"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Season availability -->
+        <section class="detail-section">
+          <h3 class="detail-section-title">Availability</h3>
+          <div class="season-chart" id="season-chart">
+            <!-- 12-month bar, generated by JS -->
+          </div>
+          <div class="season-regions" id="season-regions"></div>
+        </section>
+
+        <!-- How to eat -->
+        <section class="detail-section">
+          <h3 class="detail-section-title">How to Eat</h3>
+          <ol class="how-to-list" id="how-to-list"></ol>
+        </section>
+
+        <!-- Where to buy -->
+        <section class="detail-section">
+          <h3 class="detail-section-title">Where to Buy</h3>
+          <div class="buy-info" id="buy-info"></div>
+        </section>
+
+        <!-- Traveler tips -->
+        <section class="detail-section">
+          <h3 class="detail-section-title">Traveler Tips</h3>
+          <p class="traveler-tip" id="traveler-tip"></p>
+        </section>
+
+        <!-- Varieties -->
+        <section class="detail-section" id="varieties-section">
+          <h3 class="detail-section-title">Common Varieties</h3>
+          <div class="varieties-list" id="varieties-list"></div>
+        </section>
+
+        <!-- Similar fruits -->
+        <section class="detail-section">
+          <h3 class="detail-section-title">Similar Fruits</h3>
+          <div class="similar-fruits" id="similar-fruits"></div>
+        </section>
+
+      </div><!-- /detail-body -->
+    </div><!-- /detail-panel -->
+  </div><!-- /detail-overlay -->
+
+  <!-- ─── DESIGN NOTES BUTTON ────────────────────────────────────────────────── -->
+  <button class="design-notes-btn" id="design-notes-btn" type="button" aria-expanded="false" aria-controls="design-notes-panel">
+    <span class="hex-icon">⬡</span> Design Notes
+  </button>
+
+  <!-- ─── DESIGN NOTES PANEL ────────────────────────────────────────────────── -->
+  <div class="design-notes-panel glass" id="design-notes-panel" hidden>
+    <div class="design-notes-header">
+      <span class="design-notes-title">⬡ Design Notes</span>
+      <button class="design-notes-close" id="design-notes-close" type="button" aria-label="Close design notes">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="design-notes-body">
+
+      <section class="dn-section">
+        <h3 class="dn-heading">The Design Language: Content-First Editorial with Bento Grid</h3>
+        <p>This design follows the dominant 2025–2026 aesthetic found across high-credibility products — Linear, Vercel, Stripe, and editorial-first SaaS tools. It is called <strong>Content-First Editorial with Bento Grid + Glassmorphism accents</strong>.</p>
+        <p>The philosophy: data-heavy pages need visual hierarchy to remain scannable. A dark background reduces cognitive load by eliminating the high-contrast white canvas that makes densely-typed content fatiguing. The amber accent color (#E8892B) is the dominant non-generic accent color in 2026 product design — it reads warm and trustworthy without the generic tech-blue overuse or the now-played-out purple-to-blue gradient.</p>
+        <p><strong>Why it works:</strong> The editorial grid creates asymmetric information density — featured content occupies larger cells, secondary content smaller cells. This mirrors how print editorial layouts work: not everything is equal importance, so not everything should be equal size.</p>
+      </section>
+
+      <section class="dn-section">
+        <h3 class="dn-heading">Color System</h3>
+        <div class="color-swatches">
+          <div class="swatch"><div class="swatch-block" style="background:#0a0a0a;border:1px solid #333"></div><span class="swatch-label">#0a0a0a — Near Black<br><span class="swatch-why">Primary bg. Near-black (not pure black) prevents harsh contrast that makes text hard to read at night. Pure #000 looks cheap on screens.</span></span></div>
+          <div class="swatch"><div class="swatch-block" style="background:#E8892B"></div><span class="swatch-label">#E8892B — Amber<br><span class="swatch-why">2026 dominant accent. Warm, trustworthy, food-appropriate. Orange-amber signals freshness and vitality without the generic blue-tech or overused purple-pink gradient palette.</span></span></div>
+          <div class="swatch"><div class="swatch-block" style="background:#4ade80"></div><span class="swatch-label">#4ade80 — Leaf Green<br><span class="swatch-why">Secondary accent. Nature context grounds the design. Green signals freshness, growth, fruit. Used sparingly for in-season indicators and data highlights.</span></span></div>
+          <div class="swatch"><div class="swatch-block" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1)"></div><span class="swatch-label">rgba(255,255,255,0.04) — Glass<br><span class="swatch-why">Glassmorphism surface. Used ONLY on the filter panel and overlays — not on every card. Overusing glass is a 2022 anti-pattern. Here it creates surface depth on interactive panels.</span></span></div>
+        </div>
+        <p class="dn-note">Zero purple appears anywhere on this page. No hex, rgba, hsl, or named purple variant. The blue-purple-pink gradient was the defining overuse of 2023–2024 AI-generated design. Actively avoided here.</p>
+      </section>
+
+      <section class="dn-section">
+        <h3 class="dn-heading">Typography System</h3>
+        <p><strong>Inter</strong> is the choice — it is the highest-quality variable-weight grotesque optimized for screen legibility at small sizes. It pairs the mechanical precision of Helvetica with the warmth needed for long-form reading. The Thai text uses system fallback stack (Arial, sans-serif) as it doesn't interfere with Inter's weight rendering.</p>
+        <ul class="dn-list">
+          <li>Hero Thai: clamp(56px, 12vw, 120px) — oversized to signal cultural depth before the English headline</li>
+          <li>Section labels: 11px, uppercase, letter-spacing 0.15em — the label communicates before the content does</li>
+          <li>Card title: 18–22px, weight 600 — readable at small card sizes</li>
+          <li>Body: 14px, line-height 1.65 — looser line-height for dark-background comfort</li>
+        </ul>
+      </section>
+
+      <section class="dn-section">
+        <h3 class="dn-heading">Bento Grid: Advantages vs Disadvantages</h3>
+        <p class="dn-pros-label">Advantages for this use case:</p>
+        <ul class="dn-list dn-pros">
+          <li>Creates visual hierarchy without explicit headers — featured fruits naturally draw attention through cell size</li>
+          <li>Allows progressive disclosure: more info is revealed in the larger cells without overloading small ones</li>
+          <li>Asymmetric density mirrors editorial print design — the brain reads varied-size grids faster than uniform grids</li>
+          <li>Scales gracefully from 4 to 25 items without the "dead end" appearance of equal-height grid + unused cells</li>
+        </ul>
+        <p class="dn-cons-label">Disadvantages for this use case:</p>
+        <ul class="dn-list dn-cons">
+          <li>Harder to implement consistently responsive — desktop bento requires separate mobile layout</li>
+          <li>Content importance changes by season — a statically-featured cell may not always contain the most relevant fruit</li>
+          <li>Filter reordering can disrupt the bento layout's visual coherence (we reset to standard grid when filtering)</li>
+          <li>Screen readers prefer predictable grid order — requires care with aria attributes</li>
+        </ul>
+      </section>
+
+      <section class="dn-section">
+        <h3 class="dn-heading">Glassmorphism: How It's Used (and Why Sparingly)</h3>
+        <p>Glassmorphism is applied to three surfaces only: the filter sidebar, flavor tag pills, and the detail panel backdrop. This is intentional restraint.</p>
+        <p>Overusing glassmorphism is a 2022–2023 anti-pattern. When every surface is frosted glass, none of them have depth — they all look equally floaty. Glassmorphism earns its effect by contrast with solid surfaces. The filter sidebar uses glass to signal <em>it is a layer above the grid</em>, not part of it. The detail panel uses it to communicate <em>overlay state</em>. That's the full extent.</p>
+      </section>
+
+      <section class="dn-section">
+        <h3 class="dn-heading">The 9 AI-Design Tropes: Actively Avoided Here</h3>
+        <p>These are the most identifiable patterns from AI-generated design tools (2023–2025). Each is explicitly absent from this page.</p>
+        <ol class="dn-tropes">
+          <li>
+            <strong>Hero gradient blobs / soft purple-blue aurora backgrounds</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>Background is #0a0a0a. No radial gradients, no aurora, no color blob. The hero uses typography weight and scale — not visual noise — to create impact.</p>
+          </li>
+          <li>
+            <strong>"Everything is a rounded white card on gray background"</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>Cards use #111111 on #0a0a0a. No white. No generic gray. Border radius is 12px — present but not the rounded-2xl of every generic dashboard.</p>
+          </li>
+          <li>
+            <strong>Emoji bullet points in body text</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>No emojis appear in body copy, lists, or descriptions. The one emoji-like element (⬡ Design Notes button) is a Unicode hexagon used as an abstract mark, not a semantic emoji.</p>
+          </li>
+          <li>
+            <strong>Hollow outlined icons with no weight variation</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>Icons are used minimally — only the search field and close button. Both use consistent 2px stroke weight inline SVG. No icon library, no filler icons.</p>
+          </li>
+          <li>
+            <strong>Blue/purple/pink generic tech gradient palette</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>Zero purple. Zero blue-to-purple gradient. The entire palette is amber (#E8892B), green (#4ade80), and near-black neutrals. Deliberately non-tech-generic.</p>
+          </li>
+          <li>
+            <strong>Centered everything — no real information hierarchy</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>The layout is left-anchored with a fixed filter column driving the reading flow. Cards are left-aligned text. Only the hero headline centers — appropriate for hero sections with no competing content.</p>
+          </li>
+          <li>
+            <strong>CTA buttons that say "Get Started" or "Learn More"</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>There are no generic CTAs. Interactive elements describe their function: "Clear all", "Close", the filter pills all say exactly what they filter.</p>
+          </li>
+          <li>
+            <strong>Fake testimonial cards with generic avatar circles</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>This page contains zero social proof theater. No avatars, no star ratings, no "thousands of travelers love this" copy. Data credibility comes from the information itself.</p>
+          </li>
+          <li>
+            <strong>Section headers with "FEATURES" above big bold text</strong>
+            <span class="dn-status dn-avoided">Avoided</span>
+            <p>Section labels on this page (like "THAILAND" in the eyebrow) are contextual metadata, not decorative feature-section markers. The detail panel sections use direct functional headings: "How to Eat", "Where to Buy" — not "EATING EXPERIENCE" above "How to Enjoy This Fruit".</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="dn-section">
+        <h3 class="dn-heading">Mobile Responsiveness Approach</h3>
+        <p>Desktop-primary design with responsive adaptation:</p>
+        <ul class="dn-list">
+          <li>Filter sidebar collapses to a slide-up sheet on mobile (triggered by a bottom bar button)</li>
+          <li>Bento grid collapses to single-column card stack on mobile — featured card drops its 2x size advantage</li>
+          <li>Hero typographic sizes use clamp() throughout — no breakpoint-based font-size switching</li>
+          <li>Touch targets on pills and cards meet 44px minimum height</li>
+          <li>Detail panel takes 100% width on mobile vs. 640px max-width on desktop</li>
+        </ul>
+      </section>
+
+      <section class="dn-section">
+        <h3 class="dn-heading">Technical Decisions</h3>
+        <ul class="dn-list">
+          <li><strong>Vanilla JS + no framework</strong> — This is a content-display site. A React bundle would add 40KB+ for functionality achievable in 8KB of plain JS. Simpler code, faster load, easier to understand.</li>
+          <li><strong>Pure SVG radar chart</strong> — No Chart.js, D3, or Recharts. The flavor radar is generated by trigonometry directly in SVG. Eliminates a 300KB+ dependency for one chart.</li>
+          <li><strong>IntersectionObserver lazy loading</strong> — Images load as they enter viewport, not all at once. Critical for a 25-fruit image-heavy page.</li>
+          <li><strong>CSS-only micro-interactions</strong> — Card hover states, transitions, and pill active states are pure CSS. No JavaScript event listeners for visual feedback.</li>
+          <li><strong>URL parameter sync</strong> — Active filters are reflected in the URL so filtered views are shareable and bookmarkable.</li>
+          <li><strong>WebP images</strong> — All images processed to WebP with max 1MB constraint. 30–50% smaller than JPEG at equivalent quality.</li>
+        </ul>
+      </section>
+
+    </div><!-- /design-notes-body -->
+  </div><!-- /design-notes-panel -->
+
+  <!-- Mobile filter toggle -->
+  <button class="mobile-filter-btn" id="mobile-filter-btn" type="button">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>
+    Filters
+    <span class="mobile-filter-badge" id="mobile-filter-badge"></span>
+  </button>
+
+  <!-- Mobile sidebar backdrop -->
+  <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

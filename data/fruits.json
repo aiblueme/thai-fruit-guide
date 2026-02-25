@@ -1,0 +1,986 @@
+[
+  {
+    "slug": "mango",
+    "name_en": "Mango",
+    "name_th": "มะม่วง",
+    "name_th_roman": "Mamuang",
+    "flavor_profile": {
+      "primary": ["sweet", "tropical"],
+      "secondary": ["floral", "honey notes when ripe"],
+      "texture": "Smooth, fiberless flesh in premium varieties; julienned crisp when green",
+      "intensity": 4,
+      "sweetness": 5,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [3, 4, 5],
+      "available_months": [1, 2, 3, 4, 5, 6, 12],
+      "north_thailand": "Mar–May peak",
+      "south_thailand": "Apr–Jun peak",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Peel and slice fresh for eating",
+      "Eat green with nam pla wan (sweet-salty fish sauce dip)",
+      "Blend into smoothies or mango shakes",
+      "Serve with sticky rice and coconut cream (khao niao mamuang)",
+      "Slice into wedges and refrigerate before eating"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets, talad rot fai, morning markets",
+      "price_range_baht": "20–80 per kg depending on variety and season",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Nam Dok Mai and Mahachanok are premium eating varieties; Khieo Sawoei preferred green"
+    },
+    "traveler_tips": "Green mango is intentionally eaten unripe with spicy dips — don't wait for it to ripen. Mango sticky rice is best from street carts in March–May.",
+    "common_varieties": ["Nam Dok Mai", "Mahachanok", "Khieo Sawoei", "Chok Anan"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 2,
+    "tags": ["beginner-friendly", "widely-available", "sticky-rice-pairing", "street-food"]
+  },
+  {
+    "slug": "mangosteen",
+    "name_en": "Mangosteen",
+    "name_th": "มังคุด",
+    "name_th_roman": "Mangkhut",
+    "flavor_profile": {
+      "primary": ["sweet", "tangy"],
+      "secondary": ["floral", "delicate citrus", "peach-like"],
+      "texture": "Soft, juicy white segments; melts on the tongue",
+      "intensity": 4,
+      "sweetness": 4,
+      "sourness": 3
+    },
+    "seasonality": {
+      "peak_months": [5, 6, 7, 8],
+      "available_months": [4, 5, 6, 7, 8, 9],
+      "north_thailand": "May–Aug",
+      "south_thailand": "Jun–Sep, year-round in some areas",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Score the purple rind around the equator and twist apart — do not cut through",
+      "Pull off the top half of rind to reveal white segments",
+      "Eat the white flesh segments directly; avoid the purple rind (bitter)",
+      "The segment count matches the petal count on the base — a Thai trick",
+      "Refrigerate for 15 minutes before eating for best flavor"
+    ],
+    "where_to_buy": {
+      "markets": "Seasonal markets, fresh markets in southern Thailand",
+      "price_range_baht": "40–100 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Called the 'Queen of Fruits' in Thailand. Dark purple rind should give slightly when pressed."
+    },
+    "traveler_tips": "The purple rind stains clothing permanently. Eat over a napkin. Buy only when rind gives slightly — hard means unripe, very soft means overripe.",
+    "common_varieties": ["Mangkhut"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "queen-of-fruits", "seasonal", "messy"]
+  },
+  {
+    "slug": "rambutan",
+    "name_en": "Rambutan",
+    "name_th": "เงาะ",
+    "name_th_roman": "Ngoh",
+    "flavor_profile": {
+      "primary": ["sweet", "juicy"],
+      "secondary": ["lychee-like", "mild floral"],
+      "texture": "Translucent, slippery, juicy flesh around a central seed",
+      "intensity": 3,
+      "sweetness": 4,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [5, 6, 7, 8],
+      "available_months": [4, 5, 6, 7, 8, 9],
+      "north_thailand": "Jun–Aug",
+      "south_thailand": "May–Sep",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Pinch and score the hairy skin with your thumbnail along the equator",
+      "Twist apart the two halves of the skin",
+      "Pop the flesh into your mouth and spit out the seed",
+      "Eat fresh; also good chilled"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets, especially in southern provinces",
+      "price_range_baht": "20–50 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Look for bright red specimens with green-tipped spines — freshest indicator"
+    },
+    "traveler_tips": "The word 'rambutan' means 'hairy' in Malay. The soft spines are not sharp. Red with green tips = fresh; all-brown spines = old.",
+    "common_varieties": ["Rongrien", "Si Chomphu", "Sichomphu"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "seasonal", "widely-available"]
+  },
+  {
+    "slug": "durian",
+    "name_en": "Durian",
+    "name_th": "ทุเรียน",
+    "name_th_roman": "Thurian",
+    "flavor_profile": {
+      "primary": ["rich", "custard-like"],
+      "secondary": ["onion", "vanilla", "almonds", "complex savory-sweet"],
+      "texture": "Creamy, dense, almost custard or ice cream texture; some varieties stringy",
+      "intensity": 5,
+      "sweetness": 4,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [4, 5, 6, 7],
+      "available_months": [3, 4, 5, 6, 7, 8],
+      "north_thailand": "May–Jul",
+      "south_thailand": "Apr–Aug, some year-round",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Ask the market vendor to open it — the spiky shell requires tools",
+      "Pull the flesh pods from the interior sections",
+      "Eat the yellow or cream-colored flesh pods directly",
+      "Avoid eating with alcohol — Thai belief and some scientific basis",
+      "Try Monthong for mildest entry point; Kan Yao for premium experience"
+    ],
+    "where_to_buy": {
+      "markets": "Dedicated durian stalls, fresh markets, roadside vendors in season",
+      "price_range_baht": "100–600+ per kg depending on variety",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Monthong is milder and more accessible. Kan Yao is the premium small-seed variety. Banned in many hotels and transport."
+    },
+    "traveler_tips": "Banned in many hotels, airports, and public transport due to smell. Buy from a vendor who will open it on-site. The smell is intense outside; the taste inside is completely different — rich, sweet, complex.",
+    "common_varieties": ["Monthong", "Kan Yao", "Chanee", "Kradum"],
+    "difficulty_to_eat": 3,
+    "smell_intensity": 5,
+    "tags": ["king-of-fruits", "polarizing", "seasonal", "premium"]
+  },
+  {
+    "slug": "longan",
+    "name_en": "Longan",
+    "name_th": "ลำไย",
+    "name_th_roman": "Lamyai",
+    "flavor_profile": {
+      "primary": ["sweet", "musky"],
+      "secondary": ["light floral", "honey"],
+      "texture": "Juicy, slippery translucent flesh; refreshing",
+      "intensity": 3,
+      "sweetness": 4,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [7, 8, 9],
+      "available_months": [6, 7, 8, 9, 10],
+      "north_thailand": "Jul–Sep peak, Lamphun is the longan capital",
+      "south_thailand": "Aug–Oct",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Pinch the thin brown shell and pop the flesh out whole",
+      "Eat fresh; spit the smooth brown seed",
+      "Sold in clusters — peel and eat one at a time",
+      "Excellent dried as a snack or in herbal drinks"
+    ],
+    "where_to_buy": {
+      "markets": "All markets in season, especially Lamphun and Chiang Mai area",
+      "price_range_baht": "20–60 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Lamphun province is famous for its longan festival in August"
+    },
+    "traveler_tips": "Longan is considered cooling in Thai traditional medicine. The Lamphun Longan Festival (August) is a great cultural event if you're in the north.",
+    "common_varieties": ["Biew Kiew", "Edor", "Haeo"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "seasonal", "snackable", "north-thailand"]
+  },
+  {
+    "slug": "lychee",
+    "name_en": "Lychee",
+    "name_th": "ลิ้นจี่",
+    "name_th_roman": "Linchi",
+    "flavor_profile": {
+      "primary": ["sweet", "floral"],
+      "secondary": ["rose water", "grape-like"],
+      "texture": "Juicy, tender, slightly fibrous; very refreshing",
+      "intensity": 4,
+      "sweetness": 5,
+      "sourness": 2
+    },
+    "seasonality": {
+      "peak_months": [4, 5, 6],
+      "available_months": [3, 4, 5, 6, 7],
+      "north_thailand": "Apr–Jun, Chiang Rai and Chiang Mai",
+      "south_thailand": "May–Jul",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Peel the rough red skin by pinching and pulling",
+      "Eat the white flesh whole, spitting the smooth seed",
+      "Chill before eating for best flavor",
+      "Use in cocktails, desserts, or eat fresh by the handful"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets in season",
+      "price_range_baht": "40–100 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Chiang Rai and Chiang Mai produce the best Thai lychees. Hong Huay is the premium variety."
+    },
+    "traveler_tips": "Fresh lychee is very different from canned. If you've only had canned, fresh is a revelation. Buy clusters with red-pink skin, not brown.",
+    "common_varieties": ["Hong Huay", "Kim Cheng", "O-hia"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 2,
+    "tags": ["beginner-friendly", "seasonal", "north-thailand", "widely-available"]
+  },
+  {
+    "slug": "papaya",
+    "name_en": "Papaya",
+    "name_th": "มะละกอ",
+    "name_th_roman": "Malakor",
+    "flavor_profile": {
+      "primary": ["sweet", "tropical"],
+      "secondary": ["musky", "melon-like"],
+      "texture": "Soft, smooth, melting; green papaya is firm and crunchy",
+      "intensity": 3,
+      "sweetness": 4,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "available_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Year-round",
+      "south_thailand": "Year-round",
+      "year_round": true
+    },
+    "how_to_eat": [
+      "Cut in half lengthwise and scoop out the seeds with a spoon",
+      "Slice or cube the orange flesh and eat fresh",
+      "Squeeze lime juice over ripe papaya to brighten the flavor",
+      "Eat green papaya shredded in som tum (papaya salad)"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets year-round",
+      "price_range_baht": "15–40 per fruit",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Green papaya for som tum is cheap and abundant. Ripe papaya should yield slightly to pressure."
+    },
+    "traveler_tips": "Som tum (green papaya salad) is one of Thailand's most iconic dishes. The unripe green fruit is used for cooking, not the ripe orange one.",
+    "common_varieties": ["Khak Dum", "Holland Papaya"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 2,
+    "tags": ["beginner-friendly", "year-round", "widely-available", "cooking-ingredient"]
+  },
+  {
+    "slug": "pineapple",
+    "name_en": "Pineapple",
+    "name_th": "สับปะรด",
+    "name_th_roman": "Sapparot",
+    "flavor_profile": {
+      "primary": ["sweet", "tangy"],
+      "secondary": ["tropical", "bright acidic"],
+      "texture": "Juicy, fibrous, refreshing; Thai varieties often much sweeter than imports",
+      "intensity": 4,
+      "sweetness": 5,
+      "sourness": 3
+    },
+    "seasonality": {
+      "peak_months": [3, 4, 5, 6],
+      "available_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Year-round, peak Apr–Jun",
+      "south_thailand": "Year-round",
+      "year_round": true
+    },
+    "how_to_eat": [
+      "Street vendors sell pre-cut in plastic bags with a salt-chili shaker on the side",
+      "Sprinkle the salt-sugar-chili mix for the authentic Thai way",
+      "Peel, core, and cut into rings or wedges at home",
+      "Use in fried rice (khao pad sapparot) or as a palate cleanser"
+    ],
+    "where_to_buy": {
+      "markets": "All markets, street vendors year-round",
+      "price_range_baht": "20–50 per prepared bag, 30–80 per whole fruit",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Pattani and Prachuap Khiri Khan are famous pineapple regions. Thai varieties (Pattavia, Trad Si Thong) are much sweeter than western varieties."
+    },
+    "traveler_tips": "The Thai street food trick: pineapple + salt + chili flakes. The salt intensifies sweetness and the chili adds heat. Try it before judging.",
+    "common_varieties": ["Pattavia", "Trad Si Thong", "Phuket Pineapple"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 3,
+    "tags": ["beginner-friendly", "year-round", "street-food", "widely-available"]
+  },
+  {
+    "slug": "dragon-fruit",
+    "name_en": "Dragon Fruit",
+    "name_th": "แก้วมังกร",
+    "name_th_roman": "Kaeo Mangkon",
+    "flavor_profile": {
+      "primary": ["mild sweet"],
+      "secondary": ["melon-like", "very subtle"],
+      "texture": "Soft, speckled with tiny black seeds throughout; smooth and cooling",
+      "intensity": 2,
+      "sweetness": 3,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [7, 8, 9, 10, 11],
+      "available_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Year-round; peak Aug–Nov",
+      "south_thailand": "Year-round",
+      "year_round": true
+    },
+    "how_to_eat": [
+      "Cut in half lengthwise",
+      "Scoop out the flesh with a spoon, or score and peel back the skin",
+      "Cut into cubes for fruit platters",
+      "Blend into smoothies — adds color and mild sweetness"
+    ],
+    "where_to_buy": {
+      "markets": "All supermarkets and most fresh markets",
+      "price_range_baht": "30–80 per fruit",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Red-fleshed varieties are sweeter and more flavorful. White-fleshed is milder and more common."
+    },
+    "traveler_tips": "Dragon fruit has mild flavor — don't expect explosive taste. Its value is visual appeal, hydration, and fiber. The red-fleshed variety is noticeably sweeter.",
+    "common_varieties": ["White flesh (Hylocereus undatus)", "Red flesh (Hylocereus polyrhizus)"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "year-round", "photogenic", "mild"]
+  },
+  {
+    "slug": "jackfruit",
+    "name_en": "Jackfruit",
+    "name_th": "ขนุน",
+    "name_th_roman": "Khanun",
+    "flavor_profile": {
+      "primary": ["sweet", "tropical"],
+      "secondary": ["bubblegum-like", "banana", "pineapple notes"],
+      "texture": "Chewy, fibrous pods; the interior seeds are also edible when boiled",
+      "intensity": 4,
+      "sweetness": 5,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [2, 3, 4, 5],
+      "available_months": [1, 2, 3, 4, 5, 6, 7],
+      "north_thailand": "Feb–May",
+      "south_thailand": "Mar–Jun, some year-round",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Vendors typically pre-cut and package the pods — buy these",
+      "Pull the yellow pods free from the stringy white core",
+      "The seeds inside each pod are edible when boiled or roasted",
+      "Young green jackfruit is used in savory curries and stir-fries"
+    ],
+    "where_to_buy": {
+      "markets": "Fresh markets, usually pre-cut and packaged",
+      "price_range_baht": "30–60 per package of pods",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Full jackfruits can weigh 10–25kg — you'll almost always buy pre-cut. The fresh cut variety is much better than packaged."
+    },
+    "traveler_tips": "Jackfruit is the world's largest tree fruit. The sticky latex sap stains hands and clothing — oil your hands before handling or just buy pre-cut. Young green jackfruit is a popular meat substitute.",
+    "common_varieties": ["Champedak (a related species)", "Standard Jackfruit"],
+    "difficulty_to_eat": 3,
+    "smell_intensity": 3,
+    "tags": ["seasonal", "adventurous", "large-fruit", "cooking-ingredient"]
+  },
+  {
+    "slug": "pomelo",
+    "name_en": "Pomelo",
+    "name_th": "ส้มโอ",
+    "name_th_roman": "Som-O",
+    "flavor_profile": {
+      "primary": ["sweet", "mildly tart"],
+      "secondary": ["fresh citrus", "mild bitterness in membrane"],
+      "texture": "Large, dry-textured segments; less juicy than grapefruit but sweeter",
+      "intensity": 3,
+      "sweetness": 4,
+      "sourness": 2
+    },
+    "seasonality": {
+      "peak_months": [9, 10, 11, 12, 1],
+      "available_months": [8, 9, 10, 11, 12, 1, 2],
+      "north_thailand": "Sep–Jan, Nakhon Pathom is famous for pomelo",
+      "south_thailand": "Oct–Feb",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Score the thick outer skin in quarters with a knife",
+      "Peel back the four sections of thick rind",
+      "Separate the fruit segments and remove the bitter white membrane",
+      "Eat fresh segments, use in yam som-o (pomelo salad)"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets in season",
+      "price_range_baht": "20–60 per fruit",
+      "supermarket": true,
+      "street_vendor": false,
+      "notes": "Nakhon Pathom Thong Dee variety is considered the best in Thailand. Choose heavy fruits with thin skin."
+    },
+    "traveler_tips": "Pomelo is milder and sweeter than grapefruit. The thick pith can be used to make candied pomelo peel — a popular Thai sweet.",
+    "common_varieties": ["Thong Dee (Nakhon Pathom)", "Kao Yai", "Khao Nam Phueng"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 2,
+    "tags": ["seasonal", "widely-available", "salad-ingredient"]
+  },
+  {
+    "slug": "rose-apple",
+    "name_en": "Rose Apple (Chomphu)",
+    "name_th": "ชมพู่",
+    "name_th_roman": "Chomphu",
+    "flavor_profile": {
+      "primary": ["mild sweet", "watery"],
+      "secondary": ["rose water hint", "fresh", "cucumber-like"],
+      "texture": "Crisp, watery, crunchy; like an apple-watermelon cross",
+      "intensity": 2,
+      "sweetness": 3,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [3, 4, 5, 6],
+      "available_months": [2, 3, 4, 5, 6, 7, 12],
+      "north_thailand": "Mar–Jun",
+      "south_thailand": "Apr–Jul",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Rinse and eat whole like an apple — skin is edible",
+      "Core the small seed cluster at the bottom if preferred",
+      "Dip in plum powder or salt-sugar mix, as Thai children do",
+      "Slice for fruit platters"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets in season",
+      "price_range_baht": "20–50 per bag",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Bell-shaped, waxy pink or green skin. Thai name chomphu means pink/rose in Thai."
+    },
+    "traveler_tips": "Rose apple is mostly water and refreshing in hot weather. Perfect for the 38°C Chiang Mai summer afternoons. Try the dark pink variety — sweeter.",
+    "common_varieties": ["Thapthim Chan", "Si Chomphu", "Thabtim"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "seasonal", "refreshing", "snackable"]
+  },
+  {
+    "slug": "tamarind",
+    "name_en": "Tamarind",
+    "name_th": "มะขาม",
+    "name_th_roman": "Makham",
+    "flavor_profile": {
+      "primary": ["sour", "tangy"],
+      "secondary": ["sweet", "earthy", "dates-like when ripe"],
+      "texture": "Sticky, paste-like flesh clinging to hard seeds; fibrous veins",
+      "intensity": 4,
+      "sweetness": 3,
+      "sourness": 5
+    },
+    "seasonality": {
+      "peak_months": [12, 1, 2, 3],
+      "available_months": [10, 11, 12, 1, 2, 3, 4],
+      "north_thailand": "Dec–Mar",
+      "south_thailand": "Nov–Apr",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Crack the brittle brown pod and peel off the shell",
+      "Pull away the fibrous veins running along the sticky flesh",
+      "Eat the tangy flesh directly, spitting the seeds",
+      "Sweet tamarind candy (makham wan) is sold pre-packaged",
+      "Used extensively in pad thai, sauces, and curries"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets in season, dried/paste year-round",
+      "price_range_baht": "30–60 per bag of pods",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Makham wan (sweet variety) is a common snack. Makham piek (sour) is used in cooking."
+    },
+    "traveler_tips": "Tamarind is the backbone of pad thai and many Thai sauces. The sweet candy variety (makham wan) is a great first taste — sweeter and less intense than the sour cooking variety.",
+    "common_varieties": ["Makham Wan (sweet)", "Makham Piek (sour/cooking)"],
+    "difficulty_to_eat": 3,
+    "smell_intensity": 2,
+    "tags": ["seasonal", "cooking-ingredient", "sour", "candy-form"]
+  },
+  {
+    "slug": "starfruit",
+    "name_en": "Starfruit (Carambola)",
+    "name_th": "มะเฟือง",
+    "name_th_roman": "Mafueang",
+    "flavor_profile": {
+      "primary": ["tart", "crisp"],
+      "secondary": ["mild sweet", "citrus", "apple-like"],
+      "texture": "Crisp, watery, refreshing; the thin skin is edible",
+      "intensity": 3,
+      "sweetness": 2,
+      "sourness": 4
+    },
+    "seasonality": {
+      "peak_months": [9, 10, 11],
+      "available_months": [8, 9, 10, 11, 12, 1],
+      "north_thailand": "Sep–Jan",
+      "south_thailand": "Oct–Jan",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Slice crosswise to reveal the iconic star shape",
+      "Eat with skin on — the skin is edible",
+      "Sprinkle with salt, sugar, and chili powder",
+      "Use as garnish for drinks and platters",
+      "Good in fruit salads"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets in season",
+      "price_range_baht": "20–50 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Sweet varieties are greener-yellow when ripe; sour varieties used for cooking. Trim the five ridges if they look brown."
+    },
+    "traveler_tips": "The star cross-section makes starfruit a favorite for photos. Yellow-orange color means sweet; pale green means more tart. Avoid if you have kidney disease (contains oxalic acid).",
+    "common_varieties": ["Sweet Carambola", "Sour Carambola"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "seasonal", "photogenic", "sour"]
+  },
+  {
+    "slug": "santol",
+    "name_en": "Santol",
+    "name_th": "กระท้อน",
+    "name_th_roman": "Krathon",
+    "flavor_profile": {
+      "primary": ["sweet-sour"],
+      "secondary": ["floral", "cotton candy hint"],
+      "texture": "Spongy, cotton-like outer flesh; inner translucent segments around seeds",
+      "intensity": 3,
+      "sweetness": 3,
+      "sourness": 3
+    },
+    "seasonality": {
+      "peak_months": [6, 7, 8],
+      "available_months": [5, 6, 7, 8, 9],
+      "north_thailand": "Jun–Aug",
+      "south_thailand": "May–Sep",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Score around the equator and twist to open",
+      "Suck the sweet-sour juice from the spongy outer flesh",
+      "The inner translucent segments around the seeds are the best part",
+      "Seeds are not eaten; the flesh attached to seeds requires sucking off",
+      "Sold with sugar or chili-salt dips at markets"
+    ],
+    "where_to_buy": {
+      "markets": "Seasonal fresh markets, roadside vendors",
+      "price_range_baht": "20–40 per bag",
+      "supermarket": false,
+      "street_vendor": true,
+      "notes": "Look for yellow-orange skin. Green means unripe."
+    },
+    "traveler_tips": "Santol requires patience — the technique involves sucking the flesh. It's a Thai childhood snack. Messy but rewarding. Don't bite into the seed.",
+    "common_varieties": ["Yellow Santol", "Red Santol"],
+    "difficulty_to_eat": 3,
+    "smell_intensity": 2,
+    "tags": ["seasonal", "adventurous", "local-favorite", "messy"]
+  },
+  {
+    "slug": "guava",
+    "name_en": "Guava",
+    "name_th": "ฝรั่ง",
+    "name_th_roman": "Farang",
+    "flavor_profile": {
+      "primary": ["mild sweet", "grassy"],
+      "secondary": ["pear-like", "tropical"],
+      "texture": "Crunchy outer flesh; soft seedy core; Thai varieties often very crunchy",
+      "intensity": 2,
+      "sweetness": 3,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [9, 10, 11, 12, 1, 2],
+      "available_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Year-round",
+      "south_thailand": "Year-round",
+      "year_round": true
+    },
+    "how_to_eat": [
+      "Rinse and eat whole like an apple, or slice into wedges",
+      "Thai style: eat with a small bag of plum powder + sugar + chili dip",
+      "The core is seedy — avoid or eat around it",
+      "Juice well for fresh guava juice"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets year-round",
+      "price_range_baht": "10–30 per fruit",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Farang also means foreigner in Thai — a joke about the fruit being as common as tourists. Look for firm, pale-green fruits."
+    },
+    "traveler_tips": "The word 'farang' means both guava and foreigner in Thai. Thai-style guava is eaten firm and crunchy — not soft and ripe like Western preference. The plum powder dip is essential.",
+    "common_varieties": ["Kradong", "Paen Si Thong"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 2,
+    "tags": ["beginner-friendly", "year-round", "widely-available", "street-food"]
+  },
+  {
+    "slug": "salak",
+    "name_en": "Salak (Snake Fruit)",
+    "name_th": "สละ",
+    "name_th_roman": "Sala",
+    "flavor_profile": {
+      "primary": ["sweet", "sour"],
+      "secondary": ["honey", "pineapple", "drying tannin finish"],
+      "texture": "Dry, dense, apple-like crunch; astringent skin must be removed",
+      "intensity": 4,
+      "sweetness": 4,
+      "sourness": 3
+    },
+    "seasonality": {
+      "peak_months": [8, 9, 10, 11],
+      "available_months": [6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Aug–Dec",
+      "south_thailand": "Jul–Jan",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Pinch the tip and peel back the scaly brown skin",
+      "The lobes of pale yellow flesh separate easily",
+      "Each lobe contains a seed — don't bite through",
+      "Best eaten fresh; can be very astringent if overripe"
+    ],
+    "where_to_buy": {
+      "markets": "Seasonal markets, especially southern Thailand",
+      "price_range_baht": "30–70 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Scaly brown skin resembles snake scales, hence 'snake fruit'. Squeeze to check: hard = good; soft = overripe."
+    },
+    "traveler_tips": "The scaly skin looks intimidating but peels easily. The flesh has a unique dry texture unlike any other fruit. The astringent tannin finish is an acquired taste.",
+    "common_varieties": ["Sala Surat", "Sala Bali (imported Indonesian variety)"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 2,
+    "tags": ["seasonal", "adventurous", "unique-texture", "south-thailand"]
+  },
+  {
+    "slug": "langsat",
+    "name_en": "Langsat",
+    "name_th": "ลางสาด",
+    "name_th_roman": "Langsad",
+    "flavor_profile": {
+      "primary": ["sweet", "slightly tart"],
+      "secondary": ["grapefruit hint", "mild"],
+      "texture": "Translucent, juicy, grape-like flesh; thin segments around small seeds",
+      "intensity": 3,
+      "sweetness": 4,
+      "sourness": 2
+    },
+    "seasonality": {
+      "peak_months": [8, 9, 10],
+      "available_months": [7, 8, 9, 10, 11],
+      "north_thailand": "Sep–Nov",
+      "south_thailand": "Aug–Oct, Surat Thani is famous",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Squeeze the thin skin and pop the flesh out",
+      "Eat the translucent segments; spit the seed if bitter",
+      "Best eaten cold",
+      "The skin produces a sap when cut — wash hands"
+    ],
+    "where_to_buy": {
+      "markets": "Southern Thailand markets in season",
+      "price_range_baht": "30–60 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Surat Thani province produces excellent langsat. Related to longkong (slightly different variety, less sap in skin)."
+    },
+    "traveler_tips": "Langsat and longkong are similar fruits often confused. Longkong has less bitter skin sap. Both are delicious eaten fresh in clusters.",
+    "common_varieties": ["Langsat", "Longkong (related)"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 1,
+    "tags": ["seasonal", "south-thailand", "cluster-fruit", "snackable"]
+  },
+  {
+    "slug": "banana",
+    "name_en": "Banana (Kluay)",
+    "name_th": "กล้วย",
+    "name_th_roman": "Kluay",
+    "flavor_profile": {
+      "primary": ["sweet", "starchy"],
+      "secondary": ["vanilla", "varies widely by variety"],
+      "texture": "Soft and creamy when ripe; firm and starchy when green; tiny varieties more aromatic",
+      "intensity": 3,
+      "sweetness": 4,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "available_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Year-round",
+      "south_thailand": "Year-round",
+      "year_round": true
+    },
+    "how_to_eat": [
+      "Peel and eat fresh — Kluay Khai (egg banana) is the best for fresh eating",
+      "Deep fry battered (kluay tod) for a crispy street snack",
+      "Grill in skin over charcoal for kluay ping",
+      "Use in Thai desserts with coconut milk (kluay buat chi)"
+    ],
+    "where_to_buy": {
+      "markets": "Every market and street corner year-round",
+      "price_range_baht": "5–30 per bunch depending on variety",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Thailand has 20+ banana varieties. Kluay Khai (egg banana, finger-sized) is the sweetest. Kluay Nam Wa is for cooking and frying. Ignore the common Cavendish — seek local varieties."
+    },
+    "traveler_tips": "Don't settle for Cavendish. Thai markets sell 5–8 local varieties. Kluay Khai is tiny and intensely sweet. Kluay Hom is the most fragrant. Fried banana on a stick (kluay tod) is a perfect street snack.",
+    "common_varieties": ["Kluay Khai", "Kluay Hom", "Kluay Nam Wa", "Kluay Lep Mue Nang"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 2,
+    "tags": ["beginner-friendly", "year-round", "widely-available", "street-food", "cooking-ingredient"]
+  },
+  {
+    "slug": "coconut",
+    "name_en": "Coconut",
+    "name_th": "มะพร้าว",
+    "name_th_roman": "Maprao",
+    "flavor_profile": {
+      "primary": ["sweet", "fresh"],
+      "secondary": ["light coconut water", "delicate flesh"],
+      "texture": "Young coconut: thin, jelly-soft white flesh; mature: hard, dense white flesh",
+      "intensity": 2,
+      "sweetness": 3,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "available_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Year-round",
+      "south_thailand": "Year-round, especially Gulf Coast",
+      "year_round": true
+    },
+    "how_to_eat": [
+      "Young coconut: ask vendor to chop the top — drink the water with a straw",
+      "After drinking, ask vendor to split it — scoop the soft jelly flesh with a spoon",
+      "Mature coconut: crack the hard shell, use the white flesh in cooking",
+      "Coconut milk pressed from mature flesh is used in almost all Thai curries and desserts"
+    ],
+    "where_to_buy": {
+      "markets": "Every fresh market and street food stall",
+      "price_range_baht": "25–50 per young coconut",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Young coconuts (maprao on) are sold pre-trimmed as drink vessels. Mature coconuts (maprao haeng) are for cooking."
+    },
+    "traveler_tips": "In 35°C heat, a fresh young coconut from a street vendor is transformative. Cold coconut water rehydrates better than sports drinks. The vendor will cut a spoon from the trimmed husk — use it to scrape the jelly flesh.",
+    "common_varieties": ["Maprao On (young/drink)", "Maprao Haeng (mature/cooking)", "Nam Hom (fragrant)"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "year-round", "widely-available", "drink", "cooking-ingredient"]
+  },
+  {
+    "slug": "sapodilla",
+    "name_en": "Sapodilla (Lamut)",
+    "name_th": "ละมุด",
+    "name_th_roman": "Lamut",
+    "flavor_profile": {
+      "primary": ["sweet", "caramel-like"],
+      "secondary": ["brown sugar", "pear", "malt"],
+      "texture": "Grainy, pear-like; slightly gritty texture; very sweet and dense",
+      "intensity": 4,
+      "sweetness": 5,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [11, 12, 1, 2, 3],
+      "available_months": [10, 11, 12, 1, 2, 3, 4],
+      "north_thailand": "Nov–Mar",
+      "south_thailand": "Oct–Apr",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Peel the thin brown skin with a knife or by hand when very ripe",
+      "Eat the brown flesh directly — very sweet",
+      "Remove the few glossy black seeds (they have a hook — be careful)",
+      "Best eaten fully ripe when it yields to gentle pressure"
+    ],
+    "where_to_buy": {
+      "markets": "Seasonal fresh markets",
+      "price_range_baht": "30–60 per kg",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Looks like a potato or kiwi on the outside. Ripe when slightly soft. Immature sapodilla contains bitter latex."
+    },
+    "traveler_tips": "This underrated fruit tastes like caramel and brown sugar. The seeds have a small hook on one end — do not swallow. Fully ripe lamut is one of the sweetest fruits in Thailand.",
+    "common_varieties": ["Lamut Farang", "Lamut Thai"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 2,
+    "tags": ["seasonal", "underrated", "sweet", "caramel"]
+  },
+  {
+    "slug": "custard-apple",
+    "name_en": "Custard Apple (Sugar Apple)",
+    "name_th": "น้อยหน่า",
+    "name_th_roman": "Noi Na",
+    "flavor_profile": {
+      "primary": ["sweet", "creamy"],
+      "secondary": ["vanilla", "floral", "custard"],
+      "texture": "Creamy, custard-like; individual segments pull away from the core; grainy undertone",
+      "intensity": 4,
+      "sweetness": 5,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [7, 8, 9, 10],
+      "available_months": [6, 7, 8, 9, 10, 11],
+      "north_thailand": "Jul–Oct",
+      "south_thailand": "Aug–Nov",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Press gently — it should yield softly when ripe",
+      "Pull apart with fingers into two halves",
+      "Eat the white custard segments by hand",
+      "Each segment has one inedible black seed — spit it out",
+      "Eat over a bowl — it can be very messy"
+    ],
+    "where_to_buy": {
+      "markets": "Fresh markets in season",
+      "price_range_baht": "30–80 per fruit",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "The bumpy green skin should separate when ripe. Very perishable — eat within a day of buying ripe fruit."
+    },
+    "traveler_tips": "Custard apple is genuinely one of the most remarkably sweet Thai fruits. Eat it the day you buy it. Every segment has a seed — don't accidentally swallow. The flavor is like vanilla custard.",
+    "common_varieties": ["Noi Na", "Atemoya (hybrid, less common in Thailand)"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 2,
+    "tags": ["seasonal", "sweet", "custard-like", "messy"]
+  },
+  {
+    "slug": "pomegranate",
+    "name_en": "Pomegranate",
+    "name_th": "ทับทิม",
+    "name_th_roman": "Thabthim",
+    "flavor_profile": {
+      "primary": ["sweet", "tart"],
+      "secondary": ["rich berry", "astringent"],
+      "texture": "Juicy jewel-like arils; each contains a small edible seed; refreshing burst",
+      "intensity": 4,
+      "sweetness": 4,
+      "sourness": 3
+    },
+    "seasonality": {
+      "peak_months": [11, 12, 1, 2],
+      "available_months": [10, 11, 12, 1, 2, 3],
+      "north_thailand": "Nov–Feb",
+      "south_thailand": "Oct–Mar",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Score the skin into sections and pull apart over a bowl of water",
+      "The arils sink; white pith floats — makes separation easy",
+      "Eat the ruby arils as-is, or juice them",
+      "Sprinkle on salads, desserts, or yogurt",
+      "Fresh-squeezed pomegranate juice sold at markets is excellent"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets in season",
+      "price_range_baht": "30–80 per fruit",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Thai pomegranates tend to be sweeter than Middle Eastern varieties. Fresh juice stands are common."
+    },
+    "traveler_tips": "Thai name thabthim also refers to the jewel in certain Thai desserts (red rubies in coconut milk). Fresh-pressed pomegranate juice at market juice stalls is intensely good.",
+    "common_varieties": ["Thabthim Siam"],
+    "difficulty_to_eat": 2,
+    "smell_intensity": 1,
+    "tags": ["seasonal", "widely-available", "juice", "beautiful"]
+  },
+  {
+    "slug": "watermelon",
+    "name_en": "Watermelon",
+    "name_th": "แตงโม",
+    "name_th_roman": "Taeng Mo",
+    "flavor_profile": {
+      "primary": ["sweet", "refreshing"],
+      "secondary": ["light, clean", "very mild"],
+      "texture": "Very juicy, watery, crisp red or yellow flesh; cooling effect",
+      "intensity": 2,
+      "sweetness": 4,
+      "sourness": 1
+    },
+    "seasonality": {
+      "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "available_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "north_thailand": "Year-round",
+      "south_thailand": "Year-round",
+      "year_round": true
+    },
+    "how_to_eat": [
+      "Cut into wedges and eat cold",
+      "Thai vendors sell pre-cut slices from carts",
+      "Blend with lime for a watermelon-lime slushie",
+      "Sprinkle with salt to enhance sweetness (Thai technique)"
+    ],
+    "where_to_buy": {
+      "markets": "Every market and street vendor year-round",
+      "price_range_baht": "10–30 per pre-cut slice, 20–50 per half",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Thai watermelons are small to medium and very sweet. Seedless and black-seeded varieties available."
+    },
+    "traveler_tips": "Thailand's heat makes cold watermelon essential survival equipment. The bright red pre-cut slices on market carts cost almost nothing. Yellow-flesh variety (taeng mo lueang) is even sweeter.",
+    "common_varieties": ["Red flesh seedless", "Yellow flesh (Taeng Mo Lueang)"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 1,
+    "tags": ["beginner-friendly", "year-round", "widely-available", "refreshing", "street-food"]
+  },
+  {
+    "slug": "green-mango",
+    "name_en": "Green Mango (Unripe)",
+    "name_th": "มะม่วงดิบ",
+    "name_th_roman": "Mamuang Dip",
+    "flavor_profile": {
+      "primary": ["sour", "crunchy"],
+      "secondary": ["fresh, bright tartness", "mild astringent"],
+      "texture": "Crisp, dense, apple-like crunch; firm flesh with no give",
+      "intensity": 4,
+      "sweetness": 1,
+      "sourness": 5
+    },
+    "seasonality": {
+      "peak_months": [2, 3, 4, 5],
+      "available_months": [1, 2, 3, 4, 5, 6],
+      "north_thailand": "Feb–May",
+      "south_thailand": "Mar–Jun",
+      "year_round": false
+    },
+    "how_to_eat": [
+      "Peel and julienne or slice into sticks",
+      "Eat with nam pla wan dip (sweet fish sauce with dried shrimp)",
+      "Eat with prik kluea (chili-salt mix) for simpler snacking",
+      "Use shredded in som tum (green mango version)",
+      "Eaten as a snack throughout the day"
+    ],
+    "where_to_buy": {
+      "markets": "All fresh markets in mango season",
+      "price_range_baht": "10–30 per bag of sliced pieces with dip",
+      "supermarket": true,
+      "street_vendor": true,
+      "notes": "Intentionally eaten unripe and sour. The dip (nam pla wan) is sweet-salty-savory — essential pairing. Khieo Sawoei variety is the most popular for eating green."
+    },
+    "traveler_tips": "This is one of the most confusing Thai food experiences for travelers — the mango is intentionally under-ripe and sour. Do not wait for it to turn yellow. The nam pla wan dip transforms the sourness into something addictive.",
+    "common_varieties": ["Khieo Sawoei (preferred for green eating)", "Fah Lan"],
+    "difficulty_to_eat": 1,
+    "smell_intensity": 2,
+    "tags": ["seasonal", "sour", "street-food", "snack", "dip-required"]
+  }
+]
