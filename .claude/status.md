@@ -9,7 +9,7 @@ security: done
 ux_ui: done
 repo_cleanup: done
 readme: done
-last_session: "2026-03-09"
+last_session: "2026-03-10"
 has_blockers: false
 ---
 
@@ -47,7 +47,6 @@ Agent: Claude Code
 ## Backlog
 Items ordered by priority. Agent adds new items here. Completed items move to ## Done section below.
 
-- [P2] No LICENSE file — add MIT
 - [P3] External CDN scripts should be pinned to specific versions (Google Fonts URL is version-pinned via parameters — OK; no other CDN scripts found)
 - [P3] `scroll-behavior: smooth` in CSS (anti-pattern #9 per STANDARDS) — deeply embedded, document only
 - [P3] `server_tokens off` not set in nginx.conf (may be at SWAG level — check before adding)
@@ -66,6 +65,7 @@ Items ordered by priority. Agent adds new items here. Completed items move to ##
 - [x] Meta: meta description added to index.html — 2026-03-09 — 9bff439
 - [x] Meta: OG tags added to index.html — 2026-03-09 — 9bff439
 - [x] Meta: inline SVG favicon added to index.html — 2026-03-09 — 9bff439
+- [x] LICENSE: MIT added — 2026-03-10 — 154e071
 
 ## Decisions Log
 
