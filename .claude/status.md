@@ -45,11 +45,7 @@ Agent: Claude Code
 - Live URL: assumed `thai-fruits.shellnode.lol` — unconfirmed. Check SWAG labels are deployed.
 
 ## Backlog
-Items ordered by priority. Agent adds new items here. Completed items move to ## Done section below.
-
 - [P3] External CDN scripts should be pinned to specific versions (Google Fonts URL is version-pinned via parameters — OK; no other CDN scripts found)
-- [P3] `scroll-behavior: smooth` in CSS (anti-pattern #9 per STANDARDS) — deeply embedded, document only
-- [P3] `server_tokens off` not set in nginx.conf (may be at SWAG level — check before adding)
 - [P3] docker-compose.yml: create with SWAG labels once port is confirmed by Matt
 - [P3] Memory limit not set on container — add `--memory=128m` to compose when created
 
@@ -66,6 +62,8 @@ Items ordered by priority. Agent adds new items here. Completed items move to ##
 - [x] Meta: OG tags added to index.html — 2026-03-09 — 9bff439
 - [x] Meta: inline SVG favicon added to index.html — 2026-03-09 — 9bff439
 - [x] LICENSE: MIT added — 2026-03-10 — 154e071
+- [x] nginx: add server_tokens off — 2026-03-10
+- [x] CSS: remove scroll-behavior: smooth (anti-pattern #9) — 2026-03-10
 
 ## Decisions Log
 
@@ -80,7 +78,7 @@ Items ordered by priority. Agent adds new items here. Completed items move to ##
 - This project uses icrawler-generated images in images/ — processed to WebP by process_images.py
 - Has a data/fruits.json manifest with 25 fruits
 - Explicitly designed with glassmorphism and hero section (see style.css line 4 comment) — these are intentional deviations from STANDARDS design identity, not accidental
-- Anti-pattern violations in this project: #1 (hero section with gradient), #3 (glassmorphism .glass class on sidebar and modals), #9 (smooth-scroll) — all intentional, all documented here
+- Anti-pattern violations in this project: #1 (hero section with gradient), #3 (glassmorphism .glass class on sidebar and modals) — intentional, documented here; #9 (smooth-scroll) was removed 2026-03-10
 - Uses Google Fonts (Inter) loaded from CDN — not preferred monospace per STANDARDS but is an existing design choice
 - No docker-compose.yml in repo — container presumably running on vps2 but setup method unknown
 - .venv directory present locally (Python virtual environment for image processing scripts) — correctly gitignored and dockerignored
