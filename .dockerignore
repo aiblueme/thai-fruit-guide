@@ -5,12 +5,29 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Python virtual environment
+.venv/
+
 # Raw unprocessed images — potentially large, not served
 images/raw/
 
-# Git
-.git/
+# Git / CI
+.git
+.github
 .gitignore
+
+# Claude / audit
+.claude
+
+# Secrets
+.env
+.env.*
+
+# Node (not used but safety)
+node_modules
+
+# Compose (bind mounts happen on server)
+docker-compose.yml
 
 # Docs
 README.md
